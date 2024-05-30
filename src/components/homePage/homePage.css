@@ -1,0 +1,129 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #c67272;
+  padding: 1rem;
+  position: relative;
+  z-index: 1000;
+  
+}
+
+.navbar-logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 4rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar-logo a:hover {
+  color: #5e403e;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  animation: slideIn 1s ease-out;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.7rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #5e403e;
+  transform: scale(1.1);
+}
+
+@keyframes slideIn {
+  from {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Search Bar Styles */
+.search-bar button:hover {
+  color: #5e403e;
+  background-color: #333;
+}
+
+.search-bar {
+  text-align: left;
+  display: inline-flex;
+  margin-left: 7%;
+}
+
+.search-bar input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 820px;
+  margin-right: 10px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  transition: background-color 0.3s ease, color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.search-bar button:hover {
+  color: #0056b3;
+  background-color: #fff;
+  border-bottom: 2px solid #0056b3;
+}
+
+.home-page-intro {
+  border-radius: 5%;
+  background-color: rgba(240, 243, 243, 0.681);
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home-page-intro img {
+  margin-left: 10%;
+  width: 90%;
+}
+
+.home-page-intro h1 {
+  font-size: 100px;
+  animation: backwards;
+}
+
+.leftContainer {
+  margin-left: 2%;
+  margin-right: -5%;
+  width: 1200px;
+}
