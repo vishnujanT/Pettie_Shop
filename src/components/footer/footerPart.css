@@ -1,6 +1,6 @@
 .footer {
   position: relative;
-  width: 100%;
+  width: 90%;
   background: #c67272;
   min-height: 100px;
     padding: 4% 5%;
@@ -25,7 +25,7 @@
   width: 100%;
   height: 100px;
   background: url("/pinksvgnew.png"); 
-  background-size: 1000px 100px;
+  background-size: 900px 100px;
 }
 
 .wave#wave1 {
