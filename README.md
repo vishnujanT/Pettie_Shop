@@ -1,4 +1,8 @@
-Pettie Shop
-Welcome to Pettie Shop, your ultimate destination for all your pet accessories needs! Built with React, our online platform offers a seamless and enjoyable shopping experience for pet owners and enthusiasts. At Pettie Shop, you'll discover a wide array of high-quality products, ranging from stylish collars and cozy beds to nutritious treats and interactive toys. Our intuitive interface makes it easy to browse through various categories, search for specific items, and find detailed product descriptions and vibrant images that help you make the best choice for your furry friends. Whether you have a playful puppy, a curious kitten, or any other beloved pet, Pettie Shop caters to all with a diverse selection of items designed to enhance their lives. Join us at Pettie Shop and explore the best in pet accessories, where every product is carefully curated to meet the highest standards of comfort, style, and functionality. Your pets deserve the best, and Pettie Shop is here to deliver it right to your doorstep. Discover the perfect accessories for your pets today and give them the care they deserve!
+# React + Vite
 
-deployemnet link - https://pettie-shop-1.onrender.com
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
